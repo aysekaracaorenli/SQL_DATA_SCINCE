@@ -1,0 +1,44 @@
+Question 1
+Retrieve all the records from the Employees table.
+
+Select * from Employees
+--------------------------------------------------------------------------------------
+Question 2
+Retrieve the FirstName, LastName, Birthdate, Address, City, and State from the Employees table
+
+Select 
+  FirstName,
+  LastName,
+  Birthdate,
+  Address,
+  City,
+  State
+From 
+    Employees;
+    
+--------------------------------------------------------------------------------------
+Question 3
+Retrieve all the columns from the Tracks table, but only return 20 rows.
+
+Select milliseconds,
+trackId,
+name
+from tracks
+where trackId = 5 and Name = 'Princess of the Dawn'
+LIMIT 20;
+
+--------------------------------------------------------------------------------------
+
+
+
+
+
+
+
+
+
+
+
+
+
+
